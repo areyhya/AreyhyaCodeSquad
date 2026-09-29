@@ -1,0 +1,68 @@
+/* Modern Reset & Colors */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: #f6f8fa;
+    --card-bg: #ffffff;
+    --text-color: #24292f;
+    --primary-color: #0969da;
+    --border-color: #d0d7de;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+/* Layout */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #24292f;
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Components */
+.card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 24px;
+}
+
+h2 {
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #57606a;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #0c57d0;
+}
